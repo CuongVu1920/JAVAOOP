@@ -13,7 +13,7 @@ class BT3Trang93 {
 
         if(tuoi <16){
             System.out.println("ban" + ten + " o do tuoi vi thanh nien!! ");
-        }else if(tuoi >= 16 && tuoi <= 18){
+        }else if(tuoi >= 16 && tuoi < 18){
             System.out.println("ban " + ten + " o do tuoi truong thanh!! ");
         }else{
             System.out.println("ban " + ten + " da gia");

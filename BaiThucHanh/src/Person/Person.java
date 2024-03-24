@@ -4,22 +4,21 @@ import java.util.Scanner;
 
 public class Person {
     public String ten;
-    public int tuoi;
+    public String tuoi;
+    public String gioiTinh;
 
-public Person(){
-
-}
-    public void nhapThongTin(){
-        System.out.println("Thong tin bao gom:");
+    public void nhap(){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Ten la: ");
+        System.out.println("nhap ten: ");
         ten = sc.nextLine();
-        System.out.print("Tuoi la: ");
-        tuoi = sc.nextInt();
+        System.out.println("nhap tuoi: ");
+        tuoi = sc.nextLine();
+        System.out.println("nhap gioi tinh: ");
+        gioiTinh = sc.nextLine();
     }
-    public void inThongTin(){
-        System.out.print("\n Ten la: " + ten );
-        System.out.print("\n Tuoi la: " + tuoi );
+    public void xuat(){
+        System.out.println("Ten la: " + ten);
+        System.out.println("tuoi: " + tuoi);
+        System.out.println("gioi Tinh: " + gioiTinh);
     }
-    
 }

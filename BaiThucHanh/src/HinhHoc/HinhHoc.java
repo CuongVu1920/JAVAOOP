@@ -6,22 +6,21 @@ public class HinhHoc {
     public float chuVi;
     public float dienTich;
     public float theTich;
-    public HinhHoc() {
-        
-    }
 
+    public HinhHoc(){
+    }
     public void xuatTen(){
-        System.out.println("---------" + ten + "----------");
+        System.out.println("ten cua hinh la: " + ten);
     }
 
     public void inChuVi(){
-        System.out.println("Chu vi = " + chuVi);
+        System.out.println("Chu vi la: " + chuVi);
     }
-    public void inDienTch(){
-        System.out.println("Dien Tich = " + dienTich);
+    public void inDienTich(){
+        System.out.println("Dien tich la: " + dienTich);
     }
     public void inTheTich(){
-        System.out.println("The Tich = " + theTich);
+        System.out.println("The tich la: " + theTich);
     }
 
 }

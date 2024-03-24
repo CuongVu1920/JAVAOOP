@@ -2,40 +2,38 @@ package HinhHoc;
 
 public class MainClass {
     public static void main(String[] args) {
-      
+        System.out.println("------------------------------------");
         HinhTron ht = new HinhTron();
         ht.xuatTen();
         ht.nhapBanKinh();
         ht.tinhChuVi();
         ht.tinhDienTich();
         ht.inChuVi();
-        ht.inDienTch();
-        
-        System.out.println("Hinh tru");
-        Hinhtru hinhtru = new Hinhtru();
+        ht.inDienTich();
+
+        System.out.println("----------------------------------------");
+        HinhTru hinhtru = new HinhTru();
         hinhtru.xuatTen();
         hinhtru.nhapChieuCao();
         hinhtru.tinhTheTich();
         hinhtru.inTheTich();
-
-        System.out.println("---------------------------------------------------------");
-        System.out.println("Hinh Chu Nhat");
+        System.out.println("------------------------------------------");
         HinhChuNhat hcn = new HinhChuNhat();
         hcn.xuatTen();
         hcn.nhapChieuDai();
         hcn.nhapChieuRong();
         hcn.tinhChuVi();
-        hcn.tinhDienTich();
+        hcn.inDienTich();
         hcn.inChuVi();
-        hcn.inDienTch();
-        System.out.println("----------------------------------");
-        HinhVuong hv = new HinhVuong();
+        hcn.inDienTich();
+
+        System.out.println("------------------------------");
+        HinhVuong hv  = new HinhVuong();
         hv.xuatTen();
         hv.nhapCanh();
         hv.tinhChuVi();
         hv.tinhDienTich();
         hv.inChuVi();
-        hv.inDienTch();
-    
+        hv.inDienTich();
     }
 }

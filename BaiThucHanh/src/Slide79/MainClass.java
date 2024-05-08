@@ -1,7 +1,7 @@
 package Slide79;
 
 public class MainClass {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
         NhanVienFullTime sep = new NhanVienFullTime("Tran Van Sep!");
         sep.setLoaiChucVu(Lopconfigs.NHAN_VIEN_SEP);
 

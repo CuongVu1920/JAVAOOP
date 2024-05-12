@@ -1,7 +1,6 @@
 package Slide79;
 
 public class Lopconfigs {
-
     //Loai Nhan Vien
     public static final int NHAN_VIEN_SEP = 1;
     public static final int NHAN_VIEN_LINH = 2; 

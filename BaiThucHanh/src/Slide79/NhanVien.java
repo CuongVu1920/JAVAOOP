@@ -19,3 +19,4 @@ public class NhanVien {
         System.out.println("- Luong: " + luong + " VND ");
     }
 }
+

@@ -24,3 +24,4 @@ public class NhanVienFullTime extends NhanVien{
         luong = Lopconfigs.LUONG_LAM_THEM_MOI_NGAY*ngayLamThem;
     }
 }
+

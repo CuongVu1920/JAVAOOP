@@ -1,4 +1,4 @@
-package Interface;
+package Interface2;
 
 public class Dog implements Animal {
     public void run(){

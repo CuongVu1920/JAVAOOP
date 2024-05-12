@@ -1,4 +1,4 @@
-package Interface;
+package Interface2;
 
 public interface Animal {
     void run();

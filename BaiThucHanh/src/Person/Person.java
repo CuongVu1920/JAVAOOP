@@ -1,24 +1,18 @@
 package Person;
 
-import java.util.Scanner;
-
 public class Person {
-    public String ten;
-    public String tuoi;
-    public String gioiTinh;
-
-    public void nhap(){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("nhap ten: ");
-        ten = sc.nextLine();
-        System.out.println("nhap tuoi: ");
-        tuoi = sc.nextLine();
-        System.out.println("nhap gioi tinh: ");
-        gioiTinh = sc.nextLine();
+    public String name ;
+    public String gender;
+    public String age;
+    public Person(){
+        name = "Vu Viet Cuong";
+        gender = "Nam";
+        age = "20";
     }
-    public void xuat(){
-        System.out.println("Ten la: " + ten);
-        System.out.println("tuoi: " + tuoi);
-        System.out.println("gioi Tinh: " + gioiTinh);
+    public void in(){
+        System.out.println(name+" gioi tinh "+gender+" "+age+" tuoi");
+    }
+    public void in(String ten, String gioitinh, String tuoi){
+        System.out.println(ten+" gioi tinh "+gioitinh+ " "+tuoi+" tuoi");
     }
 }

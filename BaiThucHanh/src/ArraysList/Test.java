@@ -17,8 +17,6 @@ public class Test {
             System.out.println("5. Lam rong danh sach sinh vien. /n");
             System.out.println("6. Kiem tra sinh vien co ton tai trong danh sach hay khong, dua tren ma sinh vien. /n");
             System.out.println("7. Xoa mot sinh vien ra khoi danh sach dua tren ma sinh vien. /n");
-            System.out.println("8. Tim kiem tat ca sinh vien dua tren Ten duoc nhap tu ban phim. /n");
-            System.out.println("9. Xuat ra danh sach sinh vien co diem tu cao den thap.");
             System.out.println("0. Thoat khoi chuong trinh");
             luaChon = sc.nextInt();
             sc.nextLine();
@@ -61,16 +59,6 @@ public class Test {
                 String maSinhVien = sc.nextLine();
                 SinhVien sv = new SinhVien(maSinhVien);
                 System.out.println("Xoa sinh vien trong danh sach: " + dssv.xoaSinhVien(sv));
-            }else if(luaChon ==8){
-                //8. Tim kiem tat ca sinh vien dua tren Ten duoc nhap tu ban phim.
-                System.out.println("Nhap ho va ten: ");
-                String hoVaTen = sc.nextLine();
-                System.out.println("Ket qua tim kiem: ");
-                dssv.timSinhVien(hoVaTen);
-            }else if(luaChon ==9){
-                //9. Xuat ra danh sach sinh vien co diem tu cao den thap.
-                dssv.sapXepSinhVienGiamDanTheoDiem();
-                dssv.inDanhSachSinhVien();
             }
         }while(luaChon != 0 );
     }

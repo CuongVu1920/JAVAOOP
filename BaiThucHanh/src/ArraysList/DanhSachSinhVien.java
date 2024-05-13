@@ -47,31 +47,4 @@ public class DanhSachSinhVien {
     public boolean xoaSinhVien(SinhVien sv){
         return this.danhSach.remove(sv);
     }
-    //8. Tim kiem tat ca sinh vien dua tren Ten duoc nhap tu ban phim
-    public void timSinhVien(String ten){
-        for (SinhVien sinhVien : danhSach) {
-            if(sinhVien.getHoVaTen().indexOf(ten) >=0){
-                System.out.println(sinhVien);
-            }
-        }
-    }
-
-    //9. Xuat danh sach sinh vien co diem tu cao den thap
-    public void sapXepSinhVienGiamDanTheoDiem(){
-        Collections.sort(this.danhSach, new Comparator<SinhVien>() {
-
-            @Override
-            public int compare(SinhVien sv1, SinhVien sv2) {
-                if(sv1.getDiemTrungBinh() < sv2.getDiemTrungBinh()){
-                    return 1;
-                }else if(sv1.getDiemTrungBinh() > sv2.getDiemTrungBinh()){
-                    return -1;
-                }else{
-                    return 0;
-                }
-            }
-            
-            
-        } );
-    }
-}
+   }

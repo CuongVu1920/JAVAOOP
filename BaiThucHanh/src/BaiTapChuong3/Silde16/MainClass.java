@@ -1,6 +1,5 @@
 package BaiTapChuong3.Silde16;
 
-import Person.Student;
 
 public class MainClass {
     public static void main(String[] args) {

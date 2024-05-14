@@ -1,6 +1,7 @@
 package BaiTapChuong2;
 import java.util.Scanner;
-public class BAITAPTRANG30 {
+
+public class BaiTapTrang30 {
     public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
         int n;

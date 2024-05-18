@@ -31,7 +31,7 @@ public class Hash {
             System.out.println("Xoa khong thanh cong!");
         }
 
-
+        sc.close();
     }
 
 }

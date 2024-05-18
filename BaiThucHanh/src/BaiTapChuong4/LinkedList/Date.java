@@ -45,6 +45,6 @@ public class Date {
         String lastNode = linkedList.getLast();
         System.out.println("Phan tu dau tien trong danh sach la: " + firstNode );
         System.out.println("Phan tu cuoi cung trong danh sach la: " + lastNode);
-
+        sc.close();
     }
 }

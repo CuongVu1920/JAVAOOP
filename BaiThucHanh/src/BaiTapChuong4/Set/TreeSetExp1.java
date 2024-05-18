@@ -30,6 +30,6 @@ public class TreeSetExp1 {
     }else{
         System.out.println("phan tu " + number + " da ton tai");
     }
-    
+    sc.close();
         
 }}

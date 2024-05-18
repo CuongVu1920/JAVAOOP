@@ -30,5 +30,6 @@ public class LinkHashSetExp1 {
         }else{
             System.out.println("Phan tu " + s + " khong co");
         }
+        sc.close();
     }
 }

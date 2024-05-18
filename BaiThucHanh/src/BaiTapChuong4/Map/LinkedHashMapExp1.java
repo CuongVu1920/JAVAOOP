@@ -8,27 +8,27 @@ public class LinkedHashMapExp1 {
         LinkedHashMap<Integer, String> linkedHashMap = new LinkedHashMap<Integer, String>();
         
         // add
-        linkedHashMap.put(1, "Java");
-        linkedHashMap.put(3, "C++");
-        linkedHashMap.put(2, "PHP");
-        linkedHashMap.put(4, "Python");
+        linkedHashMap.put(1, " Java");
+        linkedHashMap.put(3, " C++");
+        linkedHashMap.put(2, " PHP");
+        linkedHashMap.put( 4, " Python");
 
         // show linkedHashMap before remove
-        System.out.println("Before remove: ");
+        System.out.println(" Before remove: ");
         show(linkedHashMap);
 
         // remove
         linkedHashMap.remove(2);
 
         // show linkedHashMap after remove
-        System.out.println("After remove: ");
+        System.out.println(" After remove: " );
         show(linkedHashMap);
     }
 
     public static void show(LinkedHashMap<Integer, String> linkedHashMap) {
         Set<Integer> keySet = linkedHashMap.keySet();
         for (Integer integer : keySet) {
-            System.out.println(integer + " " + linkedHashMap.get(integer));
+            System.out.print(integer + " -  " + linkedHashMap.get(integer));
         }
     }   
 }

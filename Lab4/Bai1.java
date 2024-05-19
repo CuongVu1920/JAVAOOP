@@ -29,5 +29,6 @@ public class Bai1 {
 
         Collections.sort(sapXep);
         System.out.println(sapXep);
+        sc.close();
     }
 }

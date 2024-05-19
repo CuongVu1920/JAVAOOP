@@ -27,6 +27,7 @@ public class Bai2 {
         }else{
             System.out.println("Khong co so chan trong danh sach");
         }
+        sc.close();
         }
         
     }

@@ -10,5 +10,19 @@ public class Person {
         this.diem = diem;
     }
 
-   
+   public void nhapThongTin(){
+    Scanner sc =new Scanner(System.in);
+    System.out.println("Nhap ma sinh vien: ");
+    String maSinhVien = sc.nextLine();
+    System.out.println("Nhap ho va ten sinh vien: ");
+    String hoVaTen = sc.nextLine();
+    System.out.println("Nhap diem cua sinh vien: ");
+    double diem = sc.nextDouble();
+   }
+
+   public void xuatThongTin(){
+    System.out.println("Ma sinh vien: " + maSinhVien);
+    System.out.println("Ho va ten sinh vien: " + hoVaTen);
+    System.out.println("Diem cua sinh vien: " + diem);
+   }
 }

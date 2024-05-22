@@ -1,28 +1,55 @@
 import java.util.Scanner;
 
 public class Person {
-    public String maSinhVien;
+    public String ma;
     public String hoVaTen;
-    public double diem;
-    public Person(String maSinhVien, String hoVaTen, double diem) {
-        this.maSinhVien = maSinhVien;
+    public String diaChi;
+    public Person(String ma, String hoVaTen, String diaChi) {
+        this.ma = ma;
         this.hoVaTen = hoVaTen;
-        this.diem = diem;
+        this.diaChi = diaChi;
     }
 
    public void nhapThongTin(){
     Scanner sc =new Scanner(System.in);
-    System.out.println("Nhap ma sinh vien: ");
-    String maSinhVien = sc.nextLine();
-    System.out.println("Nhap ho va ten sinh vien: ");
+    System.out.println("Nhap ma Person: ");
+    String ma = sc.nextLine();
+    System.out.println("Nhap ho va ten Person: ");
     String hoVaTen = sc.nextLine();
-    System.out.println("Nhap diem cua sinh vien: ");
-    double diem = sc.nextDouble();
+    System.out.println("Nhap dia chi cua Person: ");
+    String diaChi = sc.nextLine();
    }
 
    public void xuatThongTin(){
-    System.out.println("Ma sinh vien: " + maSinhVien);
-    System.out.println("Ho va ten sinh vien: " + hoVaTen);
-    System.out.println("Diem cua sinh vien: " + diem);
+    System.out.println("Ma Person: " + ma);
+    System.out.println("Ho va ten Person: " + hoVaTen);
+    System.out.println("Dia Chi: " + diaChi);
    }
+
+public String getMa() {
+    return ma;
+}
+
+public void setMa(String ma) {
+    this.ma = ma;
+}
+
+public String getHoVaTen() {
+    return hoVaTen;
+}
+
+public void setHoVaTen(String hoVaTen) {
+    this.hoVaTen = hoVaTen;
+}
+
+public String getDiaChi() {
+    return diaChi;
+}
+
+public void setDiaChi(String diaChi) {
+    this.diaChi = diaChi;
+}
+
+
+   
 }

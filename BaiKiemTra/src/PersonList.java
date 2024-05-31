@@ -19,7 +19,7 @@ public class PersonList {
 
   public boolean suaThongTin(String maSinhVien, Person psm){
     for (Person person : PersonList) {
-        if(person.getMa().equals(psm)){
+        if(person.getMa().equals(maSinhVien)){
             person.setHoVaTen(psm.getHoVaTen());
             person.setDiaChi(psm.getDiaChi());
             return true;
